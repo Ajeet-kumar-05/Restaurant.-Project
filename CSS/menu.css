@@ -162,14 +162,14 @@ img {
 
 /* responsive for laptop */
 
-@media (min-width: 970px) {
+@media (min-width: 1080px) {
   #after-navigate {
     display: none;
   }
 }
 
 /* responsive for phone  */
-@media (max-width: 970px) {
+@media (max-width: 1080px) {
   #navigate {
     display: none;
   }
