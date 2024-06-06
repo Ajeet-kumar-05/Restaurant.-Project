@@ -260,4 +260,30 @@ img {
   #menu .box {
     padding-bottom: 80px;
   }
+  #after-navigate::before {
+    width: 106%;
+  }
+
+  #Ordering {
+    width: 100%;
+  }
+  hr {
+    width: 105%;
+  }
+
+  .section-menu {
+    width: 397px;
+  }
+
+  html {
+    align-items: center;
+  }
+
+  #Ordering {
+    width: 100%;
+  }
+
+  #menu::before {
+    width: 95%;
+  }
 }
