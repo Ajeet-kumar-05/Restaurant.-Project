@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f5c000;
+}
+
+.section-menu {
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+#Ordering {
+  border-top: 1px solid white;
+}
+
+hr {
+  color: white;
+}
+
+#navigate {
+  display: flex;
+  position: sticky;
+  top: 0px;
+}
+
+/* #logo {
+  padding: 10px 30px;
+} */
+
+#logo img {
+  margin: 10px 30px;
+  border: 0;
+}
+
+#navigate::before {
+  /* Pudo selectors. */
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#navigate ul {
+  margin-top: 30px;
+  display: flex;
+  font-family: "Merriweather", serif;
+}
+
+#navigate ul li {
+  list-style: none;
+  font-size: 1rem;
+}
+
+#navigate ul li a {
+  color: white;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  width: 100%;
+  font-size: large;
+}
+
+#navigate ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+#navigate ul li {
+  list-style: none;
+  font-size: 25px;
+  margin: 20px;
+}
+
+/* Main code for menu is below dont touch above code */
+
+.section-menu {
+  color: #6f4e37;
+  /* font-family: serif; */
+  font-weight: 1000;
+  font-size: 4rem;
+  padding-bottom: 30px;
+}
+.text-center {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#menu {
+  margin: 20px 20px 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#menu .box {
+  border: 2px solid brown;
+  padding: 0px 30px 20px 30px;
+  /* border-radius: 3%; */
+  margin: 0px 15px;
+  padding-bottom: 30px;
+  background-color: rgb(236, 236, 247);
+}
+
+#menu .box img {
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.h-second {
+  font-size: 1.7rem;
+  padding: 15px;
+  padding-top: 0;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.heading {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 20px;
+  background-color: white;
+  border: 2px solid #8b008b;
+  border-radius: 20px;
+}
+
+.num {
+  float: left;
+}
+
+hr {
+  margin-bottom: 10px;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 25%;
+}
+
+/* #menu_row{
+  border: 1px  ;
+  border-radius: 10px;
+} */
+
+#menu::before {
+  content: "";
+  background: url(../img/menu/Menu\ BG\ 1.png) no-repeat center center / cover;
+  position: absolute;
+  height: 118%;
+  width: 100%;
+  z-index: -1;
+  /* opacity: 0.4; */
+}
+
+/* responsive for laptop */
+
+@media (min-width: 970px) {
+  #after-navigate {
+    display: none;
+  }
+}
+
+/* responsive for phone  */
+@media (max-width: 970px) {
+  #navigate {
+    display: none;
+  }
+
+  #after-navigate {
+    display: flex;
+    position: sticky;
+    top: 0px;
+  }
+
+  #after-logo img {
+    margin: 10px 30px;
+    border: 0;
+  }
+
+  #after-navigate::before {
+    /* Pudo selectors. */
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+  }
+
+  #after-navigate ul {
+    margin-top: 30px;
+    display: flex;
+    font-family: "Merriweather", serif;
+  }
+
+  #after-navigate ul li {
+    list-style: none;
+    font-size: 1rem;
+  }
+
+  #after-navigate ul li a {
+    color: white;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 100%;
+    font-size: large;
+  }
+
+  #after-navigate ul li a:hover {
+    color: black;
+    background-color: white;
+  }
+
+  #after-navigate ul li {
+    list-style: none;
+    font-size: 1rem;
+    margin: 20px;
+  }
+
+  #after-navigate {
+    display: flex;
+    flex-direction: column;
+  }
+  #after-logo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  #after-navigate ul {
+    margin: 0px;
+    justify-content: center;
+    padding-bottom: 8px;
+  }
+  #after-navigate ul li a {
+    font-size: 1.4rem;
+  }
+  #after-navigate #after-logo {
+    height: 64px;
+  }
+  #menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  #menu .box {
+    padding-bottom: 80px;
+  }
+}
