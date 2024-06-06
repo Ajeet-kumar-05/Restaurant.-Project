@@ -86,6 +86,16 @@
 #home h1 {
   font-size: 50px;
 }
-
-
 */
+body {
+  width: 131%;
+}
+
+#home::before {
+  width: 131%;
+}
+
+.section-clients::before {
+  width: 131%;
+}
+
