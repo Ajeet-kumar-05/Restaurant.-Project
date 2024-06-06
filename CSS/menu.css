@@ -16,9 +16,6 @@ body {
   border-bottom: 2px solid white;
 }
 
-#Ordering {
-  border-top: 1px solid white;
-}
 
 hr {
   color: white;
@@ -261,7 +258,7 @@ img {
     padding-bottom: 80px;
   }
   #after-navigate::before {
-    width: 106%;
+    width: 397px;
   }
 
   #Ordering {
@@ -284,6 +281,6 @@ img {
   }
 
   #menu::before {
-    width: 95%;
+    width: 397px;
   }
 }
